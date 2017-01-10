@@ -1,0 +1,1 @@
+define("SwatchColor",[],function(){function t(t){this.hexValue=t}return t.prototype.getHexValue=function(){return this.hexValue},t}),define("swatch",["require","SwatchColor"],function(t){SwatchColor=t("SwatchColor");var o=function(t){return new SwatchColor(t)};return o.getRandomColor=function(){return new SwatchColor("#"+Math.floor(16777215*Math.random()).toString(16))},o});
