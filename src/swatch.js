@@ -1,8 +1,3 @@
-require.config({
-	baseUrl: "src",
-	paths: {}
-});
-
 define(function (require) {
 	SwatchColour = require("SwatchColour");
 
@@ -11,7 +6,7 @@ define(function (require) {
 	};
 
 	swatch.getRandomColor = function () {
-		return new SwatchColor("#" + Math.floor(Math.random()*16777215).toString(16));
+		return new SwatchColour("#" + Math.floor(Math.random()*16777215).toString(16));
 	};
 
 	return swatch;
