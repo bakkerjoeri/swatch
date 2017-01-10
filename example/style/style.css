@@ -10,7 +10,9 @@ html, body {
 body {
 	transition-property: background-color;
 	transition-duration: 0.4s;
+}
 
+.swatch {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -18,10 +20,6 @@ body {
 
 .swatch-color-value {
 	display: block;
-	margin: 0 auto;
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
 
 	font-family: sans-serif;
 	font-size: 24px;
