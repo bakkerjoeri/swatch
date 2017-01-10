@@ -14,7 +14,7 @@ To create a new color, call `swatch(string)` with a HEX color value.
 swatch.getRandomColor();
 ```
 
-To create a new color with an entirely random color value, call `swatch.getRandomColor();`.
+To create a new color with an entirely random color value, call `swatch.getRandomColor()`.
 
 ## Get & set
 
