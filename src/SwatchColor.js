@@ -1,11 +1,11 @@
 define(function () {
-	function SwatchColour (hexValue) {
+	function SwatchColor (hexValue) {
 		this.hexValue = hexValue;
 	}
 
-	SwatchColour.prototype.getHexValue = function () {
+	SwatchColor.prototype.getHexValue = function () {
 		return this.hexValue;
 	};
 
-	return SwatchColour;
+	return SwatchColor;
 });
