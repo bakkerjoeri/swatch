@@ -1,17 +1,13 @@
 {
-	"name": "swatch",
-	"version": "0.0.1",
+    "name": "swatch",
+	"version": "0.1.0",
 	"authors": [
-		"Joeri Bakker <joeri@halfjebruin.nl>"
+		"Joeri Bakker <bakkerjoeri@gmail.com>"
 	],
-  	"private": true,
   	"ignore": [
-    	"scripts/vendor",
-    	"scss",
-    	"config.rb",
-    	".sass-cache"
+    	"vendor"
   	],
   	"devDependencies": {
-    	"requirejs": "latest"
+        "requirejs": "latest"
   	}
 }
